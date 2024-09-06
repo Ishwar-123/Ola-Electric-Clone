@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- font ausome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- aos cdn's -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--==============================================Navbar========================================= -->
+    <nav class="navbar navbar-expand-sm bg-dark position-sticky">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-lg-5" href="index.html"><img src="images/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-lg-auto">
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link text-white" href="offers.html">offers</a>
+                    </li>
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link text-white" href="ola s1 pro.html">S1 Pro</a>
+                    </li>
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link text-white" href="ola s1 air.html">S1 Air</a>
+                    </li>
+                    <li class="nav-item ms-lg-5">
+                        <a class="nav-link text-white" href="javascript:void(0)">S1 X</a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item " type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" data-bs-whatever="@mdo">
+                            <a class="nav-link text-white me-lg-5" href="javascript:void(0)">Exchange</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link  text-white me-lg-5" href="javascript:void(0)">Test Ride</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-success me-lg-5" href="javascript:void(0)">Order Now</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center justify-content-center me-lg-5">
+                        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"> <i
+                                class="fa-solid fa-bars fa-lg" style="color: #ffffff;"></i>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--======================================== Carousel 1========================================-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/ola s1 pro bg.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block" id="mt">
+                    <h5 class="mb-lg-3" style="font-size: 40px;">S1 Pro</h5>
+                    <p style="font-size: 50px;">Engineered to thrill!</p>
+                    <p class="mb-lg-5">At ₹1,34,999</p>
+                    <p><button class="me-lg-3" style="width: 202px; height: 56px; border: none;"
+                            data-aos="fade-right">Book At ₹3299/mo<i class="fa-solid fa-arrow-right fa-md ms-2"
+                                style="color: black;"></i></button>
+                        <button class="ms-lg-3"
+                            style="width: 202px; height: 56px; background-color: #4E4E4EBD; color: white; border: none;"
+                            data-aos="fade-left">Watch
+                            The Film<i class="fa-solid fa-arrow-right fa-md ms-2" style="color: #ffffff;"></i></button>
+                    </p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="d-flex ">
+                            <div class="p-5" data-aos="flip-down">
+                                <p class="kw">195km</p>
+                                <p>Certified Range</p>
+                            </div>
+                            <div class="p-5" data-aos="flip-down">
+                                <p class="kw">11kW</p>
+                                <p>Peak Power</p>
+                            </div>
+                            <div class="p-5" data-aos="flip-down">
+                                <p class="kw">120 km/h</p>
+                                <p>Top Speed</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <!-- ============================================slider======================= -->
+    <div class="container mt-lg-5 mb-lg-5 " id="cmtmb" data-aos="fade-up">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/c1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c3.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/c4.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- ============================ performance ====================================== -->
+    <div class="container d-md-flex d-lg-flex gap-3 mb-5 pb-lg-5" id="performance">
+        <div class="all-div" id="con-1">
+            <div class=" p-2" data-aos="fade-right">
+                <div class="per mt-lg-3">Performance</div>
+                <div class="rea mt-lg-1">Ready. Set. Thrill.</div>
+                <div class="mt-lg-5 ps-2" id="perbtn"><a href="#" class="text-decoration-none"
+                        style="color: #16aa51;">More about
+                        performance<i class="fa-solid fa-arrow-right ms-2 mt-1"></i></a></div>
+            </div>
+            <div class="mt-2" id="mt2">
+                <div class="olaimg1 p-4 container-fluid" data-aos="fade-right">
+                    <p class="p1">Range</p>
+                    <p class="p2">195 km certified range. <br>
+                        Go further and some more</p>
+                </div>
+            </div>
+        </div>
+        <div class="all-div" id="con-2">
+            <div class="olaimg2 mb-0 p-4" data-aos="slide-up">
+                <p class="p1">Top Speed</p>
+                <p class="p2">120 kmph. <br>
+                    Grab your racing gear.
+
+                </p>
+            </div>
+            <div class="olaimg3 mt-3" data-aos="slide-up">
+                <p class="p1">Advance Regen
+
+                </p>
+                <p class="p2">Keep charging, while you're riding. </p>
+            </div>
+        </div>
+        <div class="all-div" id="con-3">
+            <div class="olaimg4" data-aos="fade-left">
+                <p class="p1">Cruise Control</p>
+                <p class="p2">Keep going, without throttle input.
+                    <br>
+                    Give your wrist some rest.
+                </p>
+            </div>
+            <div class="olaimg5 mt-3 p-4" data-aos="fade-left">
+                <p class="p1">Acceleration</p>
+                <p class="p2">0 to 40 in 2.6 seconds. <br>
+                    Unleash the power of a <br>
+                    11 kW motor.</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- ===================================== technology ============================= -->
+    <div class="container d-lg-flex gap-3 mb-3" id="technology">
+        <div class="all-div" id="con-1">
+            <div class=" p-2" data-aos="fade-right">
+                <div class="per mt-3">Technology</div>
+                <div class="rea mt-2">Advanced features. Upgraded riding experience. Enabled by MoveOS.</div>
+                <div class="mt-4 ps-2" id="perbtn"><a href="#" class="text-decoration-none" style="color: #16aa51;">More
+                        about
+                        technology<i class="fa-solid fa-arrow-right ms-2 mt-1"></i></a></div>
+            </div>
+            <div class="mt-4">
+                <div class="olaimg6 p-4" data-aos="fade-right">
+                    <p class="p1">Proximity unlock </p>
+                    <p class="p2">Unlocks only when you’re around. It likes you like that.
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="all-div" id="con-2">
+            <div class="olaimg7 mb-0 p-4" data-aos="slide-up">
+                <p class="p1">Ola Electric App </p>
+                <p class="p2">Control your scooter. <br>
+                    Right from your phone. </p>
+            </div>
+            <div class="olaimg8 mt-3" data-aos="slide-up">
+                <p class="p1">Rider Profiles
+                </p>
+                <p class="p2">Now your friend’s mother’s daughter’s nephew can also join the fun.</p>
+            </div>
+        </div>
+        <div class="all-div" id="con-3">
+            <div class="olaimg9 mb-0 p-4" data-aos="fade-left">
+                <p class="p1">Navigation </p>
+                <p class="p2">Navigate with ease and explore the city. With Ola Maps.
+                </p>
+            </div>
+            <div class="olaimg10 mt-3" data-aos="fade-left">
+                <p class="p1">Auto Turn-off Indicator </p>
+                <p class="p2">Indicators turn off automatically after a turn. Just like a car.</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- ===================================================================== -->
+
+    <div class="container d-md-flex d-lg-flex gap-3 mb-5 pb-lg-5 justify-content-md-center" id="c123">
+        <div class="all-div" id="con-1">
+            <div class="olaimg11" data-aos="fade-right">
+                <p class="p1">Ride Journal </p>
+                <p class="p2">Keep track of everywhere you’ve been. </p>
+            </div>
+            <div class="mt-3">
+                <div class="olaimg12 p-4" data-aos="fade-right">
+                    <p class="p1">Access Controls </p>
+                    <p class="p2">Set Geofence, Timefence and Modefence.
+                        Right from your phone.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="all-div" id="con-2">
+            <div class="olaimg13 mb-0 p-4" data-aos="slide-up">
+                <p class="p1">Party Mode </p>
+                <p class="p2">Take the party. Wherever you go. </p>
+            </div>
+            <div class="olaimg14 mt-3" data-aos="slide-up">
+                <p class="p1">Energy Insights </p>
+                <p class="p2">Understand your scooter’s energy usage. Follow the tips to improve its range. </p>
+            </div>
+        </div>
+        <div class="all-div" id="con-3">
+            <div class="olaimg15" data-aos="fade-left">
+                <p class="p1">Hill Hold </p>
+                <p class="p2">Hold your place on slopes.
+                    Hands-free.
+                </p>
+            </div>
+            <div class="olaimg16 mt-3 p-4" data-aos="fade-left">
+                <p class="p1">Moods</p>
+                <p class="p2">Go retro or go racing. <br>
+                    Now match the ride to your mood.</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- ============================ design ====================================== -->
+    <div class="container d-md-flex d-lg-flex gap-3 mb-5 pb-lg-5 justify-content-md-center" id="design">
+        <div class="all-div" id="con-1">
+            <div class=" p-2 mt-lg-4" data-aos="fade-right">
+                <div class="per mt-lg-3">Design</div>
+                <div class="rea mb-lg-5">Looks Good. If you can spot it. </div>
+                <div class="mt-lg-5 ps-2" id="perbtn"><a href="#" class="text-decoration-none"
+                        style="color: #16aa51;">More about
+                        design<i class="fa-solid fa-arrow-right ms-2 mt-1"></i></a></div>
+            </div>
+            <div class="mt-5">
+                <div class="olaimg17 p-4" data-aos="fade-right">
+                    <p class="p1">Iconic Headlamp</p>
+                    <p class="p2">Like the moon. But better.</p>
+                </div>
+            </div>
+        </div>
+        <div class="all-div" id="con-2">
+            <div class="olaimg18 mb-0 p-4" data-aos="slide-up">
+                <p class="p1">Sleek, Fluid Design</p>
+                <p class="p2">No nuts. No bolts. All seamless.</p>
+            </div>
+            <div class="olaimg19 mt-3 p-4" data-aos="slide-up">
+                <p class="p1">Flat Footboard</p>
+                <p class="p2">Extra space. Just in case.</p>
+            </div>
+        </div>
+        <div class="all-div" id="con-3">
+            <div class="olaimg20 p-4" data-aos="fade-left">
+                <p class="p1">Stronger Grab rail</p>
+                <p class="p2">Grab tight. Thrill awaits. </p>
+            </div>
+            <div class="olaimg21 mt-3 p-4" data-aos="fade-left">
+                <p class="p1">34L Boot Space </p>
+                <p class="p2">Fit your world. Under your seat.</p>
+            </div>
+
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="bg-dark pt-lg-5">
+        <div class="container d-sm-block d-lg-flex" id="jcb">
+            <div class="f1 d-sm-block d-md-flex d-lg-flex justify-content-sm-around justify-content-md-between justify-content-lg-around">
+                <div class="img-logo"><img src="images/logo.svg" alt=""></div>
+                <div id="fd" data-aos="fade-right">
+                    <div id="fe">Products</div>
+                    <div id="fw">Ola S1 Pro</div>
+                    <div id="fw">Ola S1 Air</div>
+                    <div id="fw">Ola S1 X+</div>
+                    <div id="fw">Roadster</div>
+                    <div id="fw">Roadster X</div>
+                    <div id="fw">Roadster Pro</div>
+                </div>
+                <div id="fd" data-aos="fade-right">
+                    <div id="fe">Tech & Design</div>
+                    <div id="fw">Software</div>
+                    <div id="fw">Cell Tech</div>
+                    <div id="fw">Manufacturing</div>
+                    <div id="fw">Performance</div>
+                    <div id="fw">Design</div>
+                    <div id="fw">Gigafactory</div>
+                    <div id="fw">Future Factory</div>
+                </div>
+                <div id="fd" data-aos="slide-up">
+                    <div id="fe">Ownership</div>
+                    <div id="fw">Exp Center</div>
+                    <div id="fw">Hyper Charger</div>
+                    <div id="fw">Accesories</div>
+                    <div id="fw">Community</div>
+                    <div id="fw">Reffrrals</div>
+                    <div id="fw">Service</div>
+                </div>
+                <div id="fd" data-aos="fade-left">
+                    <div id="fe">Company</div>
+                    <div id="fw">About Us</div>
+                    <div id="fw">Invester</div>
+                    <div id="fw">Newsroom</div>
+                    <div id="fw">Blogs</div>
+                    <div id="fw">Careers</div>
+                    <div id="fw">Krutrim</div>
+                    <div id="fw">Dealership</div>
+                </div>
+            </div>
+            <div class="f2 ms-lg-5" data-aos="fade-left"><i class="fa-brands fa-instagram text-white"></i><i
+                    class="fa-brands fa-youtube ms-lg-3 text-white"></i><i
+                    class="fa-brands fa-twitter ms-lg-3 text-white"></i><i
+                    class="fa-brands fa-facebook ms-lg-3 text-white"></i><i
+                    class="fa-brands fa-linkedin ms-lg-3 text-white"></i></div>
+        </div>
+        <div class="container mt-3 mb-4"
+            style="width: 100% ; height: 1px; background-color: rgba(255, 255, 255, 0.278);"></div>
+        <center>
+            <div class="pb-3" id="last-1" style="color: rgba(255, 255, 255, 0.67);" data-aos="zoom-in">Copyright © 2024
+                Ola Electric
+                Mobility Ltd. All Rights Reserved.</div>
+        </center>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content p-3">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Fast forward to the <br> future</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Enter your registered Ola phone number or create a new account
+                </div>
+                <form>
+                    <div class="mb-3">
+                        <!-- <label for="number" class="col-form-label"></label> -->
+                        <table>
+                            <tr>
+                                <td><img src="images/india.svg" alt=""></td>
+                                <td> +91</td>
+                                <td><input type="number" minlength="1" maxlength="10" pattern="[0-9]"
+                                        placeholder="  Enter Your Mobile No"></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark w-100 text-white" type="submit">Next</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-top container" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+
+        <div class="f1 d-sm-block d-lg-flex container  justify-content-around pt-1" id="btnp">
+            <div class="img-logo"><img src="images/logo.svg" alt=""></div>
+            <div id="fdd">
+                <div id="fee"> Tech & Design</div>
+                <div id="fww">Software</div>
+                <div id="fww">Cell Tech</div>
+                <div id="fww">Manufacturing</div>
+                <div id="fww">Performance</div>
+                <div id="fww">Design</div>
+            </div>
+            <div id="fdd">
+                <div id="fee">Ownership</div>
+                <div id="fww">Electric Store</div>
+                <div id="fww">Hypercharger</div>
+                <div id="fww">Community</div>
+                <div id="fww">Referrals</div>
+                <div id="fww">Service</div>
+                <div id="fww">Battery Warranty</div>
+                <div id="fww">Break All Barriers</div>
+            </div>
+            <div id="fdd">
+                <div id="fee">Our Company</div>
+                <div id="fww">About Us</div>
+                <div id="fww">Investor Relationsr</div>
+                <div id="fww">News & Events</div>
+                <div id="fww">Blogs</div>
+                <div id="fww">Careers</div>
+            </div>
+            <div id="fdd">
+                <div id="fee">Account</div>
+                <div id="fww">Sign in</div>
+                <div id="fww">Support</div>
+            </div>
+            <div>
+                <button type="button" class="btn-close text-reset   " id="btnx" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- offcanvas -->
+<!-- back to top  -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up-long text-white"></i></button>
+    
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+    <!-- back to top  -->
+    <!-- <script>
+        $(document).ready(function () {
+            $("#bt1").click(function () {
+                $("#bt2").show(1000)
+            })
+        })
+    </script> -->
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+    </script>
+</body>
+
+</html>
